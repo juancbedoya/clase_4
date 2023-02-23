@@ -1,7 +1,25 @@
 {
+  "scripts": {
+    "ej": "nodemon express.js"
+  },
   "dependencies": {
     "colors": "^1.4.0",
     "express": "^4.18.2",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "modulos2",
+  "version": "1.0.0",
+  "main": "colors.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancbedoya/clase_3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancbedoya/clase_3/issues"
+  },
+  "homepage": "https://github.com/juancbedoya/clase_3#readme",
+  "description": ""
 }
