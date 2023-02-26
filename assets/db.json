@@ -1,0 +1,14 @@
+{
+  "playas": [
+    {
+      "nombre": "Juan Camilo",
+      "estado": "Brcelona",
+      "id": 3
+    },
+    {
+      "nombre": "emerson",
+      "estado": "soltero",
+      "id": 4
+    }
+  ]
+}
