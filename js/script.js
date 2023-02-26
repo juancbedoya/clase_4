@@ -11,10 +11,10 @@ const getAll = async () => {
         let json = await res.data;
         json.forEach(el => {
             $template.querySelector(".name").textContent = el.nombre;
-            $template.querySelector(".apellido").textContent = el.estado;
+            $template.querySelector(".apellido").textContent = el.apellido;
             $template.querySelector(".edit").dataset.id = el.id;
             $template.querySelector(".edit").dataset.name = el.nombre;
-            $template.querySelector(".edit").dataset.estado = el.estado;
+            $template.querySelector(".edit").dataset.apellido = el.apellido;
             $template.querySelector(".delete").dataset.id = el.id;
 
             let $clone = $d.importNode($template, true);
